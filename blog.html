@@ -22,11 +22,29 @@
         <h2 class="font-bold text-2xl mt-9">3. What is Event Loop in JavaScript?</h2>
         <h2 class="text-2xl text-gray-500">Ans</h2>
 
-        <h2 class="font-bold text-2xl mt-9">4. Describe about <span class="text-orange-600">quizTimer()</span> Function used in noChange.js</h2>
-        <h2 class="text-2xl text-gray-500">Ans</h2>
+        <h2 class="font-bold text-2xl mt-9">4. Describe about <span class="text-orange-600">quizTimer()</span> Function
+            used in noChange.js</h2>
+        <h2 class="text-2xl text-gray-500">Basically this is a function to set a timer in second and minutes. It accepts
+            a single parameter called "dismiss". It runs the code further only if the dismiss parameter is false
+            otherwise clear the previous interval timer. The function sets an interval which is 1000ms.
 
-        <h2 class="font-bold text-2xl mt-9">4. Describe about <span class="text-orange-600">chooseQuiz()</span> Function used in noChange.js</h2>
-        <h2 class="text-2xl text-gray-500">Ans</h2>
+            <br><br> It means that the count variable gets updated in every second. And based on the count variable
+            value,
+            and with some basic divide and modulus operation it can calculate second and store in countSec variable and
+            minutes in min variable. Later on it continuously displayed on the countHtml element using some DOM
+            manipulation. Also it sets different colors for different timeframe.
+        </h2>
+
+        <h2 class="font-bold text-2xl mt-9">4. Describe about <span class="text-orange-600">chooseQuiz()</span> Function
+            used in noChange.js</h2>
+        <h2 class="text-2xl text-gray-500">The purpose of this function seems to be related to selecting a quiz question
+            and storing the user's answer. It accepts 2 parameters called "index" and "givenAns". The "index" parameter
+            represents the index of the quiz question that the user has selected, and the "givenAns" parameter
+            represents the answer that the user has given for that question.
+
+            <br><br> The function first checks if there is an existing answer stored for the selected quiz question, and then
+            either updates the existing answer or creates a new one in the "answers" array. Finally, the function calls
+            another function named "displayAnswers" to update the display of the quiz answers.</h2>
     </section>
 
 </body>
