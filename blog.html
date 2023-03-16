@@ -17,10 +17,23 @@
         <h2 class="text-2xl text-gray-500">Ans</h2>
 
         <h2 class="font-bold text-2xl mt-9">2. Difference Between Local Storage, Session Storage and Cookies?</h2>
-        <h2 class="text-2xl text-gray-500">Ans</h2>
+        <h2 class="text-2xl text-gray-500"><span class="font-bold">Local storage:</span> It stores data on the client side and has a larger storage
+            capacity than session storage or cookies. Data persists beyond the current session and can be accessed by
+            any page within the same domain.
+
+            <br><br><span class="font-bold">Session storage:</span> It also stores data on the client side, but data is only accessible during the current
+            session and is deleted when the session ends. Data is not shared between different tabs or windows of the
+            same domain.
+
+            <br><br><span class="font-bold">Cookies: </span>It can store data on the client or server side and have a limit of 4 KB per cookie and 300 cookies per
+            domain. They can be accessed by multiple pages and sessions and can be set to expire at a specific time.
+            They are less secure than local storage and session storage.</h2>
 
         <h2 class="font-bold text-2xl mt-9">3. What is Event Loop in JavaScript?</h2>
-        <h2 class="text-2xl text-gray-500">Ans</h2>
+        <h2 class="text-2xl text-gray-500">The event loop is a fundamental concept in JavaScript that ensures
+            non-blocking execution of asynchronous tasks by constantly checking the call stack and task queue. It
+            enables the program to handle multiple tasks simultaneously without getting stuck waiting for a long-running
+            task to complete.</h2>
 
         <h2 class="font-bold text-2xl mt-9">4. Describe about <span class="text-orange-600">quizTimer()</span> Function
             used in noChange.js</h2>
@@ -42,9 +55,11 @@
             represents the index of the quiz question that the user has selected, and the "givenAns" parameter
             represents the answer that the user has given for that question.
 
-            <br><br> The function first checks if there is an existing answer stored for the selected quiz question, and then
+            <br><br> The function first checks if there is an existing answer stored for the selected quiz question, and
+            then
             either updates the existing answer or creates a new one in the "answers" array. Finally, the function calls
-            another function named "displayAnswers" to update the display of the quiz answers.</h2>
+            another function named "displayAnswers" to update the display of the quiz answers.
+        </h2>
     </section>
 
 </body>
